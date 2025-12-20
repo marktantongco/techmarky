@@ -1,0 +1,85 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependencies
+node_modules/
+vendor/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+out/
+target/
+*.o
+*.so
+*.dylib
+*.exe
+.next/
+.vercel/
+.netlify/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Package manager files
+package-lock.json
+yarn.lock
+Pipfile.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+venv/
+env/
+ENV/
+
+# Java
+*.class
+*.jar
+*.war
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+tmp_rovodev_*
+.vercel
