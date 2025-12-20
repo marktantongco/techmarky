@@ -10,12 +10,14 @@ import Carousel from "@/components/Carousel";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import DemoModal from "@/components/DemoModal";
+import AnimatedBackground from "@/components/AnimatedBackground";
 
 export default function Home() {
   const [isDemoModalOpen, setIsDemoModalOpen] = useState(false);
 
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen relative">
+      <AnimatedBackground />
       <Navbar />
       <Hero onOpenDemo={() => setIsDemoModalOpen(true)} />
       <Logos />
