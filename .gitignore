@@ -48,6 +48,9 @@ target/
 *.so
 *.dylib
 *.exe
+.next/
+.vercel/
+.netlify/
 
 # Environment variables
 .env
